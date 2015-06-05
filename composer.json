@@ -1,0 +1,21 @@
+{
+    "name": "rogeecn/yii2-fex-uploader",
+    "description": "fex web uploader for yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","fex","html5","flash","uploader"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "rogee",
+            "email": "rogeecn@qq.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "FexUploader\\": "src"
+        }
+    }
+}
